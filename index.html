@@ -181,11 +181,13 @@
 </div>
 
 <div class="container mx-auto px-4 py-8 flex flex-col h-screen">
-    <div class="w-screen h-[130vh] flex flex-col bg-cover bg-center" style="background-image:url('image/老王.png')">
+<!--    <div class="w-screen h-[130vh] flex flex-col bg-cover bg-center" style="background-image:url('image/老王.png')">-->
+    <div class="container mx-auto px-4 py-8 flex flex-col h-screen">
         <!-- 网站标志和口号 -->
         <header class="text-center mb-2">
             <div class="flex justify-center items-center mb-4">
-                <a href="#" onclick="resetToHome(); return false;" class="flex items-center">
+<!--                <a href="#" onclick="resetToHome(); return false;" class="flex items-center">-->
+                <a class="flex items-center">
                     <svg class="w-10 h-10 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
                     </svg>
@@ -231,10 +233,10 @@
                     </button>
                 </div>
 
-<!--                &lt;!&ndash; 添加最近搜索记录部分 &ndash;&gt;-->
-<!--                <div id="recentSearches" class="mt-4 flex flex-wrap gap-2" aria-label="最近搜索记录">-->
-<!--                    &lt;!&ndash; 这里会动态插入最近的搜索记录 &ndash;&gt;-->
-<!--                </div>-->
+                <!-- 添加最近搜索记录部分 -->
+                <div id="recentSearches" class="mt-4 flex flex-wrap gap-2" aria-label="最近搜索记录">
+                    <!-- 这里会动态插入最近的搜索记录 -->
+                </div>
             </div>
         </div>
 
@@ -396,12 +398,12 @@
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "LibreTV",
-        "url": "https://libretv.is-an.org/",
-        "description": "免费在线视频搜索与观看平台",
+        "name": "老王TV",
+        "url": "https://tomcxwy.qzz.io",
+        "description": "",
         "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://libretv.is-an.org/?s={search_term_string}",
+            "target": "https://tomcxwy.qzz.io/?s={search_term_string}",
             "query-input": "required name=search_term_string"
         }
     }
