@@ -61,10 +61,10 @@ const API_SITES = {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: 'iqiyi资源',
     },
-    wolong: {
-        api: 'https://wolongzyw.com/api.php/provide/vod',
-        name: '卧龙资源',
-    },
+    // wolong: {
+    //     api: 'https://wolongzyw.com/api.php/provide/vod',
+    //     name: '卧龙资源',
+    // },
     hwba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
         name: '华为吧资源',
